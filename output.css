@@ -553,3 +553,45 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
+
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.space-x-8 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2rem * var(--tw-space-x-reverse));
+  margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+
+.bg-blue-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(191 219 254 / var(--tw-bg-opacity, 1));
+}
+
+.bg-red-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 202 202 / var(--tw-bg-opacity, 1));
+}
