@@ -1,7 +1,9 @@
 # Time Log
-## 1/19/2025 (1 hour)
+## 1/19/2025
+### Hour 1
 Initialized Project
-
+### Hour 2
+Created barebones version of theme
 
 
 # Nuxt Minimal Starter
