@@ -4,6 +4,8 @@
 Initialized Project
 ### Hour 2
 Created barebones version of theme
+### Hour 3 
+Created home page
 
 
 # Nuxt Minimal Starter
