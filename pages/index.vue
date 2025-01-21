@@ -6,5 +6,6 @@ import Body from '@/components/Body.vue'
 
 <template lang="pug">
 Body
+    Logo
     Header
 </template>
