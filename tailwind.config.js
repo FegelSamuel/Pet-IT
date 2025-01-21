@@ -30,7 +30,18 @@ export default {
       "warm-cream": "#FFF9C4",
       "charcoal": "#212121"
     }, 
-    extend: {},
+    extend: {
+      animation: {
+        shine: "shine 1s",
+      },
+      keyframes: {
+        shine: {
+          "100%": {
+            left: "125%"
+          },
+        },
+      },
+    },
   },
   plugins: [],
 }
