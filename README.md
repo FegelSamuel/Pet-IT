@@ -9,6 +9,10 @@ Created home page
 ### Hour 4
 Imported some assets
 
+### Hour 7
+
+Some fixes
+
 
 # Nuxt Minimal Starter
 
