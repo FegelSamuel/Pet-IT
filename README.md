@@ -6,10 +6,13 @@ Initialized Project
 Created barebones version of theme
 ### Hour 3 
 Created home page
+## 1/20/2025
 ### Hour 4
 Imported some assets
+## 1/29/25
 ### Hour 7
 Some fixes
+## 1/30/25
 ### Hour 8
 Semi finalized the Home Page
 
