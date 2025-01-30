@@ -8,11 +8,10 @@ Created barebones version of theme
 Created home page
 ### Hour 4
 Imported some assets
-
 ### Hour 7
-
 Some fixes
-
+### Hour 8
+Semi finalized the Home Page
 
 # Nuxt Minimal Starter
 
