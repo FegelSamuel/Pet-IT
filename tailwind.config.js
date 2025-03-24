@@ -6,6 +6,7 @@ export default {
   content: [
     './pages/**/*.{html,js,ts,vue,tsx}',
     './components/**/*.{html,js,ts,vue,tsx}',
+    './app.vue'
   ],
   theme: {
     colors: {
