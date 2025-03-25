@@ -3,7 +3,8 @@ import Body from '~/components/PITBody.vue'
 </script>
 
 <template lang="pug">
-PITBody
-    Header
-    NuxtPage
+div(id="app")
+    PITBody
+        PITHeader
+        NuxtPage
 </template>

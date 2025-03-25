@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import Body from '~/components/PITBody.vue'
-// this is the homepage of the website!
+
 </script>
 
 
 <template lang="pug">
-div.font-mono.text-charcoal.border-slate-gray.size-fit.py-10.space-y-8
-    div() We are familiar with all the most popular Veterinary Practice Management Software programs. We work with your software provider to help during installation, upgrades, and maintenance, as well as helping to resolve problems. 
-    div() Whether you are considering upgrading to a paperless (or paper-light) office, or simply have a 'bug' that's bothering you, we can help by working with your provider so you can focus on your clients.
+h1.font-mono.font-bold.text-charcoal.border-slate-gray.size-fit.py-4.text-xl About Pet-IT
+div.font-mono.text-charcoal.border-slate-gray.size-fit.space-y-8
+    div() Pet-IT has been serving AAHA and TVMA accredited Veterinary Hospitals in the Austin and Central Texas area for 15 years. We have experience working with the leading practice management software systems, digital X-ray systems, Lab Equipment Integration, downloading lab results, etc. We work with small clinics with as few as two computers as well as large, multi-location hospitals.
+    h2.text-xl.p-4.mt-16 Founder and Chief Consultant: Andrew (Andy) Jonardi
     h2.text-xl.p-4.mt-16 Links to Popular Practice Management Websites
     div.font-bold.grid.grid-cols-3.gap-4.flex.rounded-sm.border-slate-gray.p-16.mb-16
         NuxtLink(to="https://2inova.com")

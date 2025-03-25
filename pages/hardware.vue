@@ -5,6 +5,5 @@ import Body from '~/components/PITBody.vue'
 
 
 <template lang="pug">
-Body
-    Header
+
 </template>
