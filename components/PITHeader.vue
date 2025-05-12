@@ -1,6 +1,8 @@
 <script setup lang="ts">
 
-
+const route = useRoute();
+const routeParams = route;
+console.log(routeParams);
 </script>
 
 
@@ -16,8 +18,6 @@ div.mt-7.gap-2.border-4.bg-steel-blue.border-soft-mint.rounded-xl.shadow-xl.flex
         button.border-warm-cream.px-4.py-2.shadow-2xl.bg-soft-olive.rounded-lg.hover_bg-bright-orange.size-full Hardware
     NuxtLink(to="/backup")
         button.border-warm-cream.px-4.py-2.shadow-2xl.bg-soft-olive.rounded-lg.hover_bg-bright-orange.size-full Backups
-    NuxtLink(to="/about")
-        button.border-warm-cream.px-4.py-2.shadow-2xl.bg-soft-olive.rounded-lg.hover_bg-bright-orange.size-full About Us
     NuxtLink(to="/contact")
         button.border-warm-cream.px-4.py-2.shadow-2xl.bg-soft-olive.rounded-lg.hover_bg-bright-orange.size-full Contact Us
 </template>
