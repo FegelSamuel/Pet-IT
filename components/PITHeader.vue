@@ -21,14 +21,14 @@ div.flex.flex-row.sticky.top-4
     div.mt-7.gap-2.border-4.bg-steel-blue.border-soft-mint.rounded-xl.shadow-xl.flex.buttons.justify-between.p-2.font-mono.text-charcoal.font-lg
         NuxtLink(to="/")
             button.px-4.py-2.bg-soft-olive.rounded-lg.size-full.shadow-xl.shadow-inner.shadow-inner-2xl.inset-shadow-hard-olive.inset-shadow-2xl(class= "scale-[0.98]" v-if="routePath == '/'") Home
-            button.border-warm-cream.px-4.py-2.shadow-2xl.bg-soft-olive.rounded-lg.size-full(v-else) Home
+            button.border-warm-cream.px-4.py-2.shadow-2xl.bg-soft-olive.rounded-lg.size-full.hover_border-hard-olive(v-else) Home
         NuxtLink(to="/software")
             button.px-4.py-2.bg-soft-olive.rounded-lg.size-full.shadow-xl.shadow-inner.shadow-inner-2xl.inset-shadow-hard-olive.inset-shadow-2xl(class= "scale-[0.98]" v-if="routePath == '/software'") Software
-            button.border-warm-cream.px-4.py-2.shadow-2xl.bg-soft-olive.rounded-lg.size-full(v-else) Software
+            button.border-warm-cream.px-4.py-2.shadow-2xl.bg-soft-olive.rounded-lg.size-full.hover_border-hard-olive(v-else) Software
         NuxtLink(to="/hardware") 
             button.px-4.py-2.bg-soft-olive.rounded-lg.size-full.shadow-xl.shadow-inner.shadow-inner-2xl.inset-shadow-hard-olive.inset-shadow-2xl(class= "scale-[0.98]" v-if="routePath == '/hardware'") Hardware
-            button.border-warm-cream.px-4.py-2.shadow-2xl.bg-soft-olive.rounded-lg.size-full(v-else) Hardware
+            button.border-warm-cream.px-4.py-2.shadow-2xl.bg-soft-olive.rounded-lg.size-full.hover_border-hard-olive(v-else) Hardware
         NuxtLink(to="/backup")
             button.px-4.py-2.bg-soft-olive.rounded-lg.size-full.shadow-xl.shadow-inner.shadow-inner-2xl.inset-shadow-hard-olive.inset-shadow-2xl(class= "scale-[0.98]" v-if="routePath == '/backup'") Backups
-            button.border-warm-cream.px-4.py-2.shadow-2xl.bg-soft-olive.rounded-lg.size-full(v-else) Backups
+            button.border-warm-cream.px-4.py-2.shadow-2xl.bg-soft-olive.rounded-lg.size-full.hover_border-hard-olive(v-else) Backups
 </template>
