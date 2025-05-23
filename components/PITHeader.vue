@@ -11,8 +11,6 @@ watch(
     routePath.value = newPath;
   }
 );
-
-console.log(routePath.value);
 </script>
 
 
