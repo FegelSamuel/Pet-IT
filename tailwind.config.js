@@ -28,6 +28,7 @@ export default {
       "snow-white": "#FAFAFA",
       "rich-clay": "#D84315",
       "soft-olive": "#C5E1A5",
+      "hard-olive": "#A5C185",
       "warm-cream": "#FFF9C4",
       "charcoal": "#212121"
     }, 
